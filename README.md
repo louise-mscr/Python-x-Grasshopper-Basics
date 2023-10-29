@@ -38,7 +38,7 @@ When working in grasshopper, we usually build a "block algorithm" to get the wan
 #### Syntax characteristics
 While using the Python language you can use the existing commands from Rhinoceros 7 and from Grasshopper in your code. This is following the OOP logic as described below (picture [©DevangChauhan](https://discourse.ladybug.tools/t/learning-python-for-rhino-grasshopper/2643/5)):
 
-[![Alt text](<Rhino©Devang Chauhan.png>)](https://discourse.ladybug.tools/t/learning-python-for-rhino-grasshopper/2643/5)
+[![Rhino©Devang Chauhan](<Rhino©Devang Chauhan.png>)](https://discourse.ladybug.tools/t/learning-python-for-rhino-grasshopper/2643/5)
 *"In the image above, Geometry is a namespace that hosts classes such as Curve class, Solid Class, and many more."* 
 &rarr; For each class, you will find attributes (property), Constructor methods (How to build it) and Methods (how to change it).
 <details>
@@ -57,7 +57,7 @@ While using the Python language you can use the existing commands from Rhinocero
 ## Calories Counter | Exploring Python in Grasshopper
 
 ### 1/ Basics Elements of the GH Python Script
-![Alt text](GH-python01.png)
+![gh-python-example](GH-python01.png)
 
 - **Inputs for x**
 The nature of the inputs can (and should) be precised: int, str...
@@ -76,9 +76,9 @@ ghenv.Component.AddRuntimeMessage(ghenv.Component.RuntimeMessageLevel.Error,('Th
 
 ## Wheighty Words | Personal Project
 
-![Alt text](weighty-example01.png)
+![Shakespeare-example](weighty-example01.png)
 
-![Alt text](weighty-python01.png) 
+![wheighty-words-python](weighty-python01.png) 
 
 ***
 <details>
