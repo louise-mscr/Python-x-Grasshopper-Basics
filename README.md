@@ -9,8 +9,9 @@ This repository contains the following codes:
 	- Order counter in circles (one for calories, one for price) + RunTime Error Message
 	- Wheighty Words Component 1
 	- Wheighty Words Component 2
-
-It contains the following grasshopper components: DeconstructStr (Component #1) and CircleStr (Component #2)
+- **GHUSER Components**
+	- DeconstructStr (Component #1)
+	- CircleStr (Component #2)
 
 Find more informations below on how it works: 
 1. Quick Sum-up | Interfaces - Rhinoceros 7 x Grasshopper x Python
@@ -21,7 +22,7 @@ Find more informations below on how it works:
 
 ## Quick Sum-up | Interfaces - Rhinoceros 7 x Grasshopper x Python
 
-![gh-python-example](gh-python02.png)
+![gh-python-example](pictures/gh-python02.png)
 
 ### 1/ Using [Rhinoceros 7 software](https://www.rhino3d.com/en/)
 &rarr; Rhinoceros 7 is a 3D modeling tool used in architecture and parametric design. It is not open source but has a 3 months free trial and discount for students.
@@ -38,7 +39,7 @@ When working in grasshopper, we usually build a "block algorithm" to get the wan
 #### Syntax characteristics
 While using the Python language you can use the existing commands from Rhinoceros 7 and from Grasshopper in your code. This is following the OOP logic as described below (picture [©DevangChauhan](https://discourse.ladybug.tools/t/learning-python-for-rhino-grasshopper/2643/5)):
 
-[![Rhino©Devang Chauhan](<Rhino©Devang Chauhan.png>)](https://discourse.ladybug.tools/t/learning-python-for-rhino-grasshopper/2643/5)
+[![Rhino©Devang Chauhan](pictures/Rhino_Devang_Chauhan.png)](https://discourse.ladybug.tools/t/learning-python-for-rhino-grasshopper/2643/5)
 *"In the image above, Geometry is a namespace that hosts classes such as Curve class, Solid Class, and many more."* 
 &rarr; For each class, you will find attributes (property), Constructor methods (How to build it) and Methods (how to change it).
 <details>
@@ -57,7 +58,7 @@ While using the Python language you can use the existing commands from Rhinocero
 ## Calories Counter | Exploring Python in Grasshopper
 
 ### 1/ Basics Elements of the GH Python Script
-![gh-python-example](GH-python01.png)
+![gh-python-example](pictures/GH-python01.png)
 
 - **Inputs for x**
 The nature of the inputs can (and should) be precised: int, str...
@@ -76,9 +77,9 @@ ghenv.Component.AddRuntimeMessage(ghenv.Component.RuntimeMessageLevel.Error,('Th
 
 ## Wheighty Words | Personal Project
 
-![Shakespeare-example](weighty-example01.png)
+![Shakespeare-example](pictures/weighty-example01.png)
 
-![wheighty-words-python](weighty-python01.png) 
+![wheighty-words-python](pictures/weighty-python01.png) 
 
 ***
 <details>
