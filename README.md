@@ -63,6 +63,7 @@ While using the Python language you can use the existing commands from Rhinocero
 - **Inputs for x**
 The nature of the inputs can (and should) be precised: int, str...
 If data is given from a panel, we need to precise *how we access* this data whether it is list access, data tree access or item access. This is important information to check because it will impact the code afterwards! (And usually where the problem is coming from)
+The inputs in x will then be used as arguments in the grasshopper functions provided by grasshopper.
 - **Outputs**
 &rarr; By default you have a **out** output that you can connect to a panel to have access to the results of your code running.
 &rarr; Then, you can add personalised outputs. For example if one of the outcomes of your code is a circle you can append this shape to an output named cir1 ( `cir1.append(circle)` to be added in your code).
