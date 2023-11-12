@@ -1,12 +1,11 @@
 import rhinoscriptsyntax as rs
 
-#x is in Item Access, TypeHint = str
+#x is the input coming from grasshopper, in Item Access, TypeHint = str
 
-
-number_words_list = []
-number_letters = []
 
 def sentence_rythm(*args):
+    number_words_list = []
+    number_letters = []
     new_list = list(args)
     length_words=[]
     print(new_list)

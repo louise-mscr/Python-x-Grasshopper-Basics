@@ -15,9 +15,9 @@ combos = {
     "Vegan Combo" : ["Vegan Burger", "Salad", "Lemonade"],
 }
 
-a = []
 
 def calorie_counter(*args):
+    a = []
     totalcalories = 0
     for item in args:
         if item in calories:

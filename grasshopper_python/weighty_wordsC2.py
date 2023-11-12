@@ -7,9 +7,9 @@ import ghpythonlib.components as ghc
 # To try:
 # https://developer.rhino3d.com/guides/rhinopython/grasshopper-datatrees-and-python/
 
-b = []
 
 def circles_words(*args):
+    b = []
     for list_words in args:
         a = [list(a) for a in x.Branches] #data tree into nested lists (to access index of lists)
         for i in a:

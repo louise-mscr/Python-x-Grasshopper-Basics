@@ -88,14 +88,13 @@ combos_dict = {
 	combo["name"]: combo
 	for combo in combos_list
 }
-#circles
-cir = []
-cir_2 = []
-
 
 
 
 def calorie_counter(*args):
+    #circles
+    cir = []
+    cir_2 = []
     totalcalories = 0
     totalprice = 0
     for item in args:
